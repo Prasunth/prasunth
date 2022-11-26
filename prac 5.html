@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        *{
+            background-color: lightcyan;
+        }
+        h1{
+           /* color:blue;
+            color: rgb(80, 70, 100);*/
+            background-color: tan;
+
+        }
+        #first{
+            color: brown;
+        }
+        .box3{
+            color: red;
+        }
+        h4{
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+       /* .box1{
+            font-size: 14px;
+            color: blue;
+        }*/
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: brown;
+        }
+        li:nth-child(2){
+            color: violet;
+        }
+        a:hover{
+            color: white;
+            background-color: black;
+            cursor: grab;
+        }
+        a{color:brown;
+            text-decoration: none;
+        }
+        p::after{
+            content: some;
+            color: blue;
+            text-transform: uppercase;
+        }
+        .box{
+            background-color: tan;
+            width: 200px;
+            height: 200px;
+            border: 4px dotted red;
+            box-sizing: border-box;
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+        .box h1{
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+        *{
+            margin: 0px;
+
+        }
+        .a{
+            display: block;
+            background-color: aqua;
+            color: red;
+            border: 4px ;
+            width: 200px;
+            height: 200px;
+            
+        }
+        .b{
+            display: block;
+            background-color: aqua;
+            color: red;
+            border: 4px line blue;
+            width: 200px;
+            margin-left: 200px;
+            height: 200px;
+           
+        }
+        .c{
+            display: block;
+            background-color: aqua;
+            color: red;
+            border: 4px line blue;
+            width: 200px;
+            margin-left: 400px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="box"> box element</h1>
+    <h1 style=""> heading one</h1>
+    <P id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore error cumque? Aut sed impedit labore itaque consequuntur hic et blanditiis omnis error est quasi delectus ipsum, temporibus adipisci voluptatem.</P>
+    <div class="box3">
+        <h3> heading</h3>
+        <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quia asperiores tempora praesentium fuga, eos nam perspiciatis doloribus? Culpa, atque!</P>
+    </div>
+    <div class="box1">
+        <h4>heading2</h4>
+        <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, non.
+        </P>
+    </div>
+
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+
+    </ul>
+    <a href="">about page</a>
+    
+    <<h1 class="a">box1</h1>
+    <h1 class="b">box2</h1>
+    <h1 class="c">box3</h1>
+</body>
+</html>
